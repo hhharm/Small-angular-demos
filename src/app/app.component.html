@@ -4,9 +4,17 @@
 
   <br />
 
-  <button (click)="change()">Change value to '321', with mutations</button>
+  <button (click)="change()">
+    Change value to '321' using mutation, then call markForCheck
+  </button>
   <br />
   <br />
 
-  <button (click)="changeImmute()">Change value to '123', no mutations</button>
+  <button (click)="changeImmute()">
+    Change value to '123' using object assign, then call markForCheck
+  </button>
+  <br />
+  <br />
+
+  <button (click)="obj = {}">Reset</button>
 </div>
